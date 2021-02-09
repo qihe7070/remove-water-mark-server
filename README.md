@@ -18,7 +18,11 @@
     ```
     composer install
     ```
-    
+    bash: composer: command not found
+    下载composer到本地：curl -sS https://getcomposer.org/installer | php
+    移动至系统服务：sudo mv composer.phar /usr/bin/composer
+    查看版本：composer --version
+     ```
    >以下的步骤是laravel及laravels的相关配置，您可以选择使用 `php artisan install` 指令一键完成。或根据相应文档完成设置
 3. 创建.env文件
     ```
@@ -59,9 +63,7 @@
     > 如您启动的laravels服务，则需要使用laravels配置的端口(默认是 5200)
     
 
-可扫码预览：
 
-<hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
 
 # 系列文章
 - [手把手教你做短视频去水印微信小程序（0-概述）](https://editor.csdn.net/md/?articleId=111474557)
@@ -78,4 +80,3 @@
 
 ## License
 
-[MIT](https://github.com/wyq2214368/laravel-jieba/blob/master/LICENSE)
