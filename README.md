@@ -18,7 +18,13 @@
     ```
     composer install
     ```
-    
+    bash: composer: command not found
+下载composer到本地：curl -sS https://getcomposer.org/installer | php
+
+移动至系统服务：sudo mv composer.phar /usr/bin/composer
+
+查看版本：composer --version
+
    >以下的步骤是laravel及laravels的相关配置，您可以选择使用 `php artisan install` 指令一键完成。或根据相应文档完成设置
 3. 创建.env文件
     ```
