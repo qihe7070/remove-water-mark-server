@@ -18,7 +18,7 @@
     ```
     composer install
     ```
-    bash: composer: command not found
+2.1 bash: composer: command not found
     下载composer到本地：curl -sS https://getcomposer.org/installer | php
     移动至系统服务：sudo mv composer.phar /usr/bin/composer
     查看版本：composer --version
